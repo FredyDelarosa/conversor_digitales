@@ -2,7 +2,7 @@ import { handleWordToDecimal } from './controllers/wordToDecimalController.js';
 import { handleDecimalToBinary } from './controllers/decimalToBinaryController.js';
 import { handleDecimalToHexadecimal } from './controllers/decimalToHexadecimalController.js';
 import { handleDecimalToOctal } from './controllers/decimalToOctalController.js';
-import { handleWordToAscii } from './controllers/decimalToAsciiController.js';
+import { handleWordToAscii } from './controllers/wordToAsciiController.js';
 //import { handleDecimalToAscii } from './controllers/decimalToAsciiController.js';
 
 document.addEventListener('DOMContentLoaded', () => {

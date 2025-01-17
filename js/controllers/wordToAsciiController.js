@@ -1,6 +1,6 @@
 //import { decimalToAscii } from "../models/decimalToAsciiModel.js"
 import { updateAsciiResult } from "../view/converterView.js"
-import { wordToAscii } from "../models/decimalToAsciiModel.js"
+import { wordToAscii } from "../models/wordToAsciiModel.js"
 
 /*export const handleDecimalToAscii = (decimal) => {
     try {
