@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor Numérico</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Convertidor Numérico</h1>
+    </header>
+    <main>
+        <form id="conversion-form">
+            <label for="inputValue">Ingresa un número en palabras:</label>
+            <input type="text" id="inputValue" placeholder="Ejemplo: dos" required>
+            <button type="submit">Convertir</button>
+        </form>
+        
+        <div>
+            <p id="decimalResult">Decimal: </p>
+            <p id="binaryResult">Binario: </p>
+            <p id="hexadecimalResult">Hexadecimal: </p>
+            <p id="octalResult">Octal: </p>
+            <p id="asciiWordResult">ASCII: </p>
+        </div>        
+        
+    </main>
+    <script src="js/app.js" type="module" defer></script>
+</body>
+</html>
